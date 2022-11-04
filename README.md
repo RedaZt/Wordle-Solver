@@ -15,11 +15,11 @@ A python solver for [Wordle](https://www.nytimes.com/games/wordle/index.html).
 ### Example usage
 ```
 Enter the number days you want to get the answers for : 3
-+------------+----------+
-|Date        |Solution  |
-+============+==========+
-|2022-11-04  |photo     |
-|2022-11-05  |dream     |
-|2022-11-06  |stale     |
-+------------+----------+
++-------------+-----------+
+| Date        | Solution  |
++=============+===========+
+| 2022-11-04  | photo     |
+| 2022-11-05  | dream     |
+| 2022-11-06  | stale     |
++-------------+-----------+
 ```
