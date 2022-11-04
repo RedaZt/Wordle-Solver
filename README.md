@@ -3,7 +3,7 @@ A python solver for [Wordle](https://www.nytimes.com/games/wordle/index.html).
 
 ## Requirements
   * [Python 3.4+](https://www.python.org/downloads/)
-  * requests
+  * [Requests](https://pypi.org/project/requests/)
 
 ## Usage
   * Download the source code.
