@@ -7,7 +7,7 @@ A python solver for [Wordle](https://www.nytimes.com/games/wordle/index.html).
 
 ## Usage
   * Download the source code.
-  * Run the "main.py" file.
+  * Run the "wordle.py" file.
 
 ## Constraints
   * The number of days is set to never go beyond 5.
