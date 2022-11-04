@@ -23,7 +23,6 @@ def main():
         day = (date.today() + timedelta(days = i)).strftime("%Y-%m-%d")
         link = baseLink.format(day)
         res = requests.get(link).json()
-
         solutions[res["print_date"]] = res["solution"]
 
     printTable(solutions)
