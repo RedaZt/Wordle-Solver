@@ -8,12 +8,12 @@ def printTable(solutions):
     maxLenDates = len(max(list(solutions.keys()) + ["Date"], key=len)) + 2
     maxLenSolutions = len(max(list(solutions.values()) + ["Solution"], key=len)) + 2
 
-    print('+' + '-' * maxLenDates + '+' + '-' * maxLenSolutions + '+')
-    print('|' + "Date" + ' ' * (maxLenDates - len("Date")) + '|' + "Solution" + ' ' * (maxLenSolutions - len("Solution")) + '|')
-    print('+' + '=' * maxLenDates + '+' + '=' * maxLenSolutions + '+')
+    print('+' + '-' * (maxLenDates + 1) + '+' + '-' * (maxLenSolutions + 1) + '+')
+    print('| ' + "Date" + ' ' * (maxLenDates - len("Date")) + '| ' + "Solution" + ' ' * (maxLenSolutions - len("Solution")) + '|')
+    print('+' + '=' * (maxLenDates + 1) + '+' + '=' * (maxLenSolutions + 1) + '+')
     for date, solution in solutions.items():
-        print('|' + date + ' ' * (maxLenDates - len(date)) + '|' + solution + ' ' * (maxLenSolutions - len(solution)) + '|')
-    print('+' + '-' * maxLenDates + '+' + '-' * maxLenSolutions + '+')
+        print('| ' + date + ' ' * (maxLenDates - len(date)) + '| ' + solution + ' ' * (maxLenSolutions - len(solution)) + '|')
+    print('+' + '-' * (maxLenDates + 1) + '+' + '-' * (maxLenSolutions + 1) + '+')
 
 def main():
     numberOfDays = int(input("Enter the number days you want to get the answers for : "))
